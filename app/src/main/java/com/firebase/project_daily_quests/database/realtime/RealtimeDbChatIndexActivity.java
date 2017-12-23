@@ -1,4 +1,4 @@
-package com.firebase.uidemo.database.realtime;
+package com.firebase.project_daily_quests.database.realtime;
 
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
-import com.firebase.uidemo.R;
-import com.firebase.uidemo.database.ChatHolder;
+import com.firebase.project_daily_quests.R;
+import com.firebase.project_daily_quests.database.ChatHolder;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;

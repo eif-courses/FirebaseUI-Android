@@ -7,13 +7,13 @@
 
     <!-- Generated class from Glide annotation processing -->
     <Match>
-        <Class name="com.firebase.uidemo.storage.GlideOptions" />
+        <Class name="com.firebase.project_daily_quests.storage.GlideOptions" />
         <Bug pattern="CN_IMPLEMENTS_CLONE_BUT_NOT_CLONEABLE" />
     </Match>
 
     <!-- Generated class from Glide annotation processing -->
     <Match>
-        <Class name="com.firebase.uidemo.storage.GlideRequest" />
+        <Class name="com.firebase.project_daily_quests.storage.GlideRequest" />
         <Bug pattern="CN_IMPLEMENTS_CLONE_BUT_NOT_CLONEABLE" />
     </Match>
 </FindBugsFilter>

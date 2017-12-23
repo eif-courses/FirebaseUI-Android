@@ -1,4 +1,4 @@
-package com.firebase.uidemo.storage;
+package com.firebase.project_daily_quests.storage;
 
 import android.Manifest;
 import android.content.Intent;
@@ -14,9 +14,9 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
-import com.firebase.uidemo.BuildConfig;
-import com.firebase.uidemo.R;
-import com.firebase.uidemo.util.SignInResultNotifier;
+import com.firebase.project_daily_quests.BuildConfig;
+import com.firebase.project_daily_quests.R;
+import com.firebase.project_daily_quests.util.SignInResultNotifier;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;

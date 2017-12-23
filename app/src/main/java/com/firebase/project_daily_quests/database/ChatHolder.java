@@ -1,4 +1,4 @@
-package com.firebase.uidemo.database;
+package com.firebase.project_daily_quests.database;
 
 import android.graphics.PorterDuff;
 import android.graphics.drawable.GradientDrawable;
@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.firebase.uidemo.R;
+import com.firebase.project_daily_quests.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

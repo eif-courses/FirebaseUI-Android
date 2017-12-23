@@ -7,8 +7,8 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion targetSdk
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.2_alpha"
 
         vectorDrawables.useSupportLibrary = true
         resourcePrefix "fui_"
@@ -19,6 +19,12 @@ android {
             postprocessing {
                 consumerProguardFile 'auth-proguard.pro'
             }
+        }
+
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                    'proguard-rules.pro'
         }
     }
 
@@ -54,7 +60,7 @@ dependencies {
     //noinspection GradleDynamicVersion
     testImplementation 'org.mockito:mockito-core:2.12.+'
     testImplementation 'org.robolectric:robolectric:3.5.1'
-    testImplementation 'com.facebook.android:facebook-login:4.28.0'
+    implementation 'com.facebook.android:facebook-login:4.28.0'
     testImplementation("com.twitter.sdk.android:twitter-core:3.1.1@aar") { transitive = true }
 }
 

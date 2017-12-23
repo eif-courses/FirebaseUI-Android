@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.firebase.uidemo">
+    package="com.firebase.project_daily_quests">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".FirebaseUIDemo"
+        android:name="com.firebase.project_daily_quests.FirebaseUIDemo"
         android:label="@string/app_name"
         android:allowBackup="true"
         android:fullBackupContent="true"
@@ -18,7 +19,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".ChooserActivity">
+        <activity android:name="com.firebase.project_daily_quests.ChooserActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,28 +33,28 @@
 
         <!-- Auth UI demo -->
         <activity
-            android:name=".auth.AuthUiActivity"
+            android:name="com.firebase.project_daily_quests.auth.AuthUiActivity"
             android:label="@string/title_auth_activity" />
         <activity
-            android:name=".auth.SignedInActivity"
+            android:name="com.firebase.project_daily_quests.auth.SignedInActivity"
             android:label="@string/title_auth_activity" />
 
         <!-- Firestore demo -->
         <activity
-            android:name=".database.firestore.FirestoreChatActivity"
+            android:name="com.firebase.project_daily_quests.database.firestore.FirestoreChatActivity"
             android:label="@string/title_firestore_activity" />
 
         <!-- Realtime database demo -->
         <activity
-            android:name=".database.realtime.RealtimeDbChatActivity"
+            android:name="com.firebase.project_daily_quests.database.realtime.RealtimeDbChatActivity"
             android:label="@string/title_realtime_database_activity" />
         <activity
-            android:name=".database.realtime.RealtimeDbChatIndexActivity"
+            android:name="com.firebase.project_daily_quests.database.realtime.RealtimeDbChatIndexActivity"
             android:label="@string/title_realtime_database_activity" />
 
         <!-- Storage UI demo -->
         <activity
-            android:name=".storage.ImageActivity"
+            android:name="com.firebase.project_daily_quests.storage.ImageActivity"
             android:label="@string/title_storage_activity" />
 
     </application>

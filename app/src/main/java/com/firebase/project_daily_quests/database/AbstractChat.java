@@ -1,4 +1,4 @@
-package com.firebase.uidemo.database;
+package com.firebase.project_daily_quests.database;
 
 /**
  * Common interface for chat messages, helps share code between RTDB and Firestore examples.

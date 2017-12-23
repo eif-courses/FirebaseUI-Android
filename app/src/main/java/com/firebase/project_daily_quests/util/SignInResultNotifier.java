@@ -1,10 +1,10 @@
-package com.firebase.uidemo.util;
+package com.firebase.project_daily_quests.util;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.widget.Toast;
 
-import com.firebase.uidemo.R;
+import com.firebase.project_daily_quests.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

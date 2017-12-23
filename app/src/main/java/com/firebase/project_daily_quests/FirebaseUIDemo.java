@@ -1,4 +1,4 @@
-package com.firebase.uidemo;
+package com.firebase.project_daily_quests;
 
 import android.content.Context;
 import android.support.multidex.MultiDexApplication;

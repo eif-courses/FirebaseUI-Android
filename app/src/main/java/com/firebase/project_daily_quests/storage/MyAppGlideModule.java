@@ -1,4 +1,4 @@
-package com.firebase.uidemo.storage;
+package com.firebase.project_daily_quests.storage;
 
 import android.content.Context;
 

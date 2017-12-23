@@ -1,4 +1,4 @@
-package com.firebase.uidemo.database.realtime;
+package com.firebase.project_daily_quests.database.realtime;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -17,9 +17,9 @@ import android.widget.Toast;
 import com.firebase.ui.auth.util.ui.ImeHelper;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
-import com.firebase.uidemo.R;
-import com.firebase.uidemo.database.ChatHolder;
-import com.firebase.uidemo.util.SignInResultNotifier;
+import com.firebase.project_daily_quests.R;
+import com.firebase.project_daily_quests.database.ChatHolder;
+import com.firebase.project_daily_quests.util.SignInResultNotifier;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package com.firebase.uidemo;
+package com.firebase.project_daily_quests;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,10 +25,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.firebase.uidemo.auth.AuthUiActivity;
-import com.firebase.uidemo.database.firestore.FirestoreChatActivity;
-import com.firebase.uidemo.database.realtime.RealtimeDbChatActivity;
-import com.firebase.uidemo.storage.ImageActivity;
+import com.firebase.project_daily_quests.auth.AuthUiActivity;
+import com.firebase.project_daily_quests.database.firestore.FirestoreChatActivity;
+import com.firebase.project_daily_quests.database.realtime.RealtimeDbChatActivity;
+import com.firebase.project_daily_quests.storage.ImageActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
