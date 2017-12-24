@@ -37,11 +37,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.project_daily_quests.quests.QuestActivity;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.AuthUI.IdpConfig;
 import com.firebase.ui.auth.IdpResponse;
 import com.firebase.project_daily_quests.R;
 import com.firebase.project_daily_quests.storage.GlideApp;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.EmailAuthProvider;
@@ -109,7 +112,6 @@ public class SignedInActivity extends AppCompatActivity {
 
 
 
-
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
         if (currentUser == null) {
             startActivity(AuthUiActivity.createIntent(this));
@@ -138,6 +140,7 @@ public class SignedInActivity extends AppCompatActivity {
                             finish();
                         } else {
                             showSnackbar(R.string.sign_out_failed);
+
                         }
                     }
                 });
@@ -167,7 +170,9 @@ public class SignedInActivity extends AppCompatActivity {
                             startActivity(AuthUiActivity.createIntent(SignedInActivity.this));
                             finish();
                         } else {
+
                             showSnackbar(R.string.delete_account_failed);
+
                         }
                     }
                 });
@@ -250,6 +255,8 @@ public class SignedInActivity extends AppCompatActivity {
             idpSecretLayout.setVisibility(View.VISIBLE);
             ((TextView) findViewById(R.id.idp_secret)).setText(secret);
         }
+        Intent questList = new Intent(this, QuestActivity.class);
+        startActivity(questList);
     }
 
     @MainThread

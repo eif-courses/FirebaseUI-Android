@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Firebase UI</string>
+    <string name="app_name">Diablo Quests</string>
 
     <!-- Chooser -->
-    <string name="title_auth_activity">Auth UI demo</string>
+    <string name="title_auth_activity">Diablo Quests Login</string>
     <string name="title_firestore_activity">Cloud Firestore Demo</string>
     <string name="title_realtime_database_activity">Real-time database demo</string>
     <string name="title_storage_activity">Storage Image Demo</string>
@@ -13,8 +13,8 @@
     <string name="desc_storage">Demonstrates displaying an image from Cloud Storage using Glide.</string>
 
     <!-- Auth UI -->
-    <string name="launch_title">FirebaseUI Auth Demo</string>
-    <string name="sign_in">Start</string>
+    <string name="launch_title">Are you ready for this?</string>
+    <string name="sign_in">Yes i\'m in !!!</string>
 
     <string name="use_theme_header">Use theme:</string>
     <string name="default_theme">Default theme</string>
@@ -98,4 +98,6 @@
         Make sure your device is online and that Anonymous Auth is configured in your Firebase project
         (https://console.firebase.google.com/project/_/authentication/providers)
     </string>
+    <!--Quests list-->
+    <string name="quest_text">Complete 10 bounties in 5 minutes.</string>
 </resources>

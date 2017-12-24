@@ -8,8 +8,8 @@ android {
         applicationId "com.firebase.project_daily_quests.auth"
         minSdkVersion 16
         targetSdkVersion targetSdk
-        versionCode 2
-        versionName "1.0"
+        versionCode 3
+        versionName "0.13_alpha"
 
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
@@ -53,6 +53,7 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:glide:4.3.1'
     implementation "com.google.firebase:firebase-crash:$firebaseVersion"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0-beta3'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
 
     // The following dependencies are not required to use the Firebase UI library.
@@ -64,6 +65,8 @@ dependencies {
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
     releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
     testImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+    compile project(path: ':library')
+    implementation "com.google.android.gms:play-services-ads:$firebaseVersion"
 }
 
 apply plugin: 'com.google.gms.google-services'

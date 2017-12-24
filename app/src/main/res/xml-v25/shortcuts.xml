@@ -3,7 +3,7 @@
     <shortcut
         android:shortcutId="auth"
         android:enabled="true"
-        android:icon="@drawable/firebase_auth_120dp"
+        android:icon="@mipmap/firebase_auth_120dp"
         android:shortcutShortLabel="@string/title_auth_activity">
         <intent
             android:action="android.intent.action.VIEW"

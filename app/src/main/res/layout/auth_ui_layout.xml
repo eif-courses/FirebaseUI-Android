@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:drawableTop="@drawable/firebase_auth_120dp"
+
                 android:text="@string/launch_title" />
 
             <Button
@@ -36,7 +36,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="16dp"
-                android:text="@string/sign_in" />
+                android:background="@drawable/login"
+                />
 
             <TextView
                 style="@style/Base.TextAppearance.AppCompat.Subhead"

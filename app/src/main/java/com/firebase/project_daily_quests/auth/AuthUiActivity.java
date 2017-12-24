@@ -38,6 +38,7 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.project_daily_quests.quests.QuestActivity;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.AuthUI.IdpConfig;
 import com.firebase.ui.auth.ErrorCodes;
@@ -245,6 +246,7 @@ public class AuthUiActivity extends AppCompatActivity {
         // Successfully signed in
         if (resultCode == RESULT_OK) {
             startSignedInActivity(response);
+
             finish();
             return;
         } else {
@@ -323,7 +325,7 @@ public class AuthUiActivity extends AppCompatActivity {
     @DrawableRes
     private int getSelectedLogo() {
         if (mFirebaseLogo.isChecked()) {
-            return R.drawable.firebase_auth_120dp;
+            return R.mipmap.firebase_auth_120dp;
         } else if (mGoogleLogo.isChecked()) {
             return R.drawable.ic_googleg_color_144dp;
         }
